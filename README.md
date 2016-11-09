@@ -1,5 +1,5 @@
 # PomodoroD
-Pomodoro daemon with JSON-RPC API and sound notifications. Took inspiration from Tomighty.
+Pomodoro daemon with JSON-RPC API and sound notifications. Took inspiration (and some sound files) from Tomighty.
 
 Features:
 
