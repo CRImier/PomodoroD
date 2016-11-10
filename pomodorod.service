@@ -1,0 +1,13 @@
+[Unit]
+Description=PomodoroD
+
+[Service]
+User=root
+Group=root
+PIDFile=/run/pomodorod
+ExecStart=/opt/pomodorod/pomodorod.py
+WorkingDirectory=/opt/pomodorod
+Restart=on-failure
+
+[Install]
+WantedBy=graphical.target
