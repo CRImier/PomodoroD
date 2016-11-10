@@ -1,4 +1,4 @@
-#/usr/bin/env python
+#!/usr/bin/env python
 
 """
 Pomodoro daemon with JSON-RPC interface and sound notifications.
