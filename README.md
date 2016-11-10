@@ -4,6 +4,6 @@ Pomodoro daemon with JSON-RPC API and sound notifications. Took inspiration (and
 Features:
 
  * Autotracks work/break periods
- * Doesn't stop makign sounds until period change (work to break or break to work) is acknowledged
+ * Doesn't stop making sounds until period change (work to break or break to work) is acknowledged
  * Has inconsistent-ish variable naming 
  * Works
