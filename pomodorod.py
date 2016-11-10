@@ -61,7 +61,7 @@ class PomodoroMonitor():
         self.state = "working"
         while True:
             self.run_once()
-            sleep(1)
+            sleep(5)
 
     def run_once(self):
         if not self.monitor_enabled:
