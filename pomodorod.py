@@ -90,6 +90,7 @@ class PomodoroMonitor():
         self.api = api
         self.api.register_function(self.api_get_status, "get_status")
         self.api.register_function(self.api_start_work, "start_work")
+        self.api.register_function(self.api_start_break, "start_break")
         self.api.register_function(self.api_break_work, "break_work")
         #self.api.register_function(self.api_get_status, "pause_work")
         self.api.register_function(self.api_ack_notification, "acknowledge_notification")
@@ -114,6 +115,9 @@ class PomodoroMonitor():
 
     def api_start_work(self):
         self.start_work()
+
+    def api_start_break(self):
+        self.start_break()
 
     def api_break_work(self):
         self.break_work()
